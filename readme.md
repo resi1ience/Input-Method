@@ -45,7 +45,8 @@ pip install tqdm pypinyin
 ## File Structure
 
 Please arrange your files as follows:
-.
+
+```
 ├── corpus                     # Directory containing your corpora and pinyin table
 │   ├── your_corpus1           # Your first corpus directory
 │   │   ├── 1.txt
@@ -61,6 +62,7 @@ Please arrange your files as follows:
     ├── eval.py                # Evaluation script
     ├── infer.py               # Inference script
     └── process.py             # Preprocessing script
+```
 
 **Notes:**
 
